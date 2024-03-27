@@ -1,9 +1,7 @@
 import turtle 
 
-# create flower with 3 petals using turtle graphics
-
 def draw_petal():
-    turtle.width(5)  # Set line thickness to 5
+    turtle.width(5)  
     for _ in range(2):
         turtle.forward(100)
         turtle.right(60)
