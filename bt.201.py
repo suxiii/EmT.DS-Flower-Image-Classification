@@ -1,4 +1,4 @@
-import turtle
+import turtle 
 
 # create flower with 3 petals using turtle graphics
 
@@ -20,9 +20,6 @@ def draw_flower():
         turtle.right(120)
     turtle.done()
 draw_flower()
-    
-
-
 
 
 
