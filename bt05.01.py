@@ -1,7 +1,8 @@
 import  pandas as pd
+import pandas as pd
 
 # Đọc dữ liệu từ file sales_data.csv
-#Khu vực nào bán tốt trong quý 2 ?
+data = pd.read_csv('sales_data.csv')
 result = data.groupby(['Region', 'Quarter']).sum()
 result = result.reset_index()
 result = result[result['Quarter'] == 2]
