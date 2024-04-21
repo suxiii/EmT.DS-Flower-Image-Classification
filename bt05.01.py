@@ -1,4 +1,3 @@
-import  pandas as pd
 import pandas as pd
 
 # Đọc dữ liệu từ file sales_data.csv
