@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 # Đọc dữ liệu từ URL
 url = "https://raw.githubusercontent.com/Apress/data-analysis-and-visualization-using-python/master/Ch05/Sales.csv"
