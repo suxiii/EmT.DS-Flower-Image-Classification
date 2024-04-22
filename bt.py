@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 # Đọc dữ liệu từ URL
 url = "https://raw.githubusercontent.com/Apress/data-analysis-and-visualization-using-python/master/Ch05/Sales.csv"
 data = pd.read_csv(url, header=0, sep=",")
