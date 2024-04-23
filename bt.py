@@ -4,6 +4,7 @@ import pandas as pd
 url = "https://raw.githubusercontent.com/Apress/data-analysis-and-visualization-using-python/master/Ch05/Sales.csv"
 data = pd.read_csv(url, header=0, sep=",")
 
+
 # Tạo cột Total
 data['Total'] = data['Quantity'] * data['Unit Price']
 data['Month'] = pd.to_datetime(data['Date']).dt.month
