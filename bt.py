@@ -17,7 +17,6 @@ result = result.drop_duplicates(subset='Month', keep='first')
 print(result[['Month', 'Salesperson', 'Total']])
 print('--------------------------------------')
 
-
 # Khu vực nào bán tốt trong quý 2 ?
 result = data.groupby(['Region', 'Quarter']).sum()
 result = result.reset_index()
