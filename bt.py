@@ -25,7 +25,6 @@ result = result.sort_values(by='Total', ascending=False)
 print(result[['Region', 'Total']])
 print('--------------------------------------')
 
-
 # Kết quả kinh doanh trung bình Sale theo khu vực
 result = data.groupby('Region').mean()
 result = result.reset_index()
